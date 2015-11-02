@@ -6,11 +6,9 @@
  * This file strips extraneous content and markup that are not needed
  * when a Beaver Builder page is in use.
  *
- * If project does not use Beaver Builder plugin, you can remove this template.
- *
- * @package CF_Genesis
- * @author Carrie Dils
- * @license GPL-2.0+
+ * @package   BB_Templates_Genesis
+ * @author    Crowd Favorite, Carrie Dils
+ * @license   GPL-2.0+
  */
 
 add_filter( 'body_class', 'beaver_body_class' );

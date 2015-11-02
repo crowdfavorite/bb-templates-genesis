@@ -61,3 +61,17 @@ individual basis. https://www.wpbeaverbuilder.com/support/q/pre-sales-questions-
 
 This plugin is for sites where every single post and page will use Beaver Builder. If that's not 
 the case, this plugin is not for you.
+
+If you only want to use Beaver Builder on certain pages, you don't need this plugin. Copy 
+`page_beaver.php` and drop it into your theme folder (can live in `root` or `templates` folder 
+off of `root`. From there, just select that template from Page Attributes > Templates on 
+desired page.
+
+## Future Goals
+
+Add configuration options to the plugin to allow a site admin to optionally use custom templates.
+Consider these scenarios:
+
+* Only replace page templates (not used on posts)
+* Only replace templates on selected pages and posts
+* Only replace templates on selected posts
